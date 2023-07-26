@@ -45,7 +45,7 @@ h4 span{
   height: 284px;
   width: 453px;
   background:black;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 .BW{
@@ -58,20 +58,24 @@ h4 span{
 
 /* style partie 2 */
 .partie2{
-height: 592px;
-background-color: aqua;
+height: 380px;
 }
 .p2box{
-  display: flex;
-  height: 100px;
+  margin-left: 50px;
+  height: 300px;
   width: 100%;
-  background: #f3e2ba;
+  background:transparent;
+}
+.p2box h2{
+  color: #f3e2ba;
+}
+.p2box h4,p{
+  color: white;
+  
 }
 /* style partie 3 */
 .partie3{
  height: 832px;
- background: aqua;
-
 }
 
 /* style partie 4 */
