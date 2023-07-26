@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>form</title>
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="row align-ithem-center">
+        <div class="col-md-8 mx-auto">
+          <div class="card">
+            <div class="card-body">
+              <form action="">
+                <div class="mb-3 col-6">
+                  <label for="nom" class="form-label">nom</label>
+                  <!-- aria-label in input si ona pas label -->
+                  <!-- when we use col  on use col-form-label -->
+                  <!-- :indeterminate en chechbox to specifier not it selected -->
+                  <!-- rol='switch ' in input to scren reader-->
+                  <input
+                    type="text"
+                    class="form-control form-control-lg"
+                    aria-labelledby="paswordHelpBy"
+                    name="nom"
+                    id="nom"
+                  >
+                  <div class="form-text">
+                    <span id="paswordHelpBy">this imput from name</span>
+                  </div>
+                </div>
+                <div class="mb-3 col-6">
+                  <label for="prenom" class="form-label">prenom</label>
+                  <input
+                    type="text"
+                    class="form-control form-control-sm"
+                    name="prenom"
+                    id="prenom"
+                  >
+                </div>
+                <button class="btn w-100 btn-primary">Ajouter</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

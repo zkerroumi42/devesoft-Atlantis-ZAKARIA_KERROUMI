@@ -1,0 +1,220 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bgglobal{
+  width: 1912px;
+  height: 2985px;
+  background: #000c15;
+}
+/* style partie 1 */
+.partie1{
+  background-image:url(images/bg1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1069px;
+}
+
+/* style partie 2 */
+
+.partie2{
+height: 592px;
+background:white;
+}
+
+/* style partie 3 */
+
+.partie3{
+ height: 832px;
+ background: aqua;
+
+}
+
+/* style partie 4 */
+.partie4{
+ height: 139px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box1{
+  width: 100%;
+  height: 100vh;
+  background: #e51010;;
+  margin-bottom:10px ;  
+}
+.box2{ 
+  gap: 10px;
+  width: 100%;
+  height: 100vh;
+  background: #09a3d6;
+}
+.box{
+  margin-bottom: 10px;
+height: 200px;
+background:#000;
+} */
