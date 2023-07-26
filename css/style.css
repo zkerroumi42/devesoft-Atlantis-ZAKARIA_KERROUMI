@@ -5,27 +5,69 @@
   box-sizing: border-box;
 }
 .bgglobal{
-  width: 1912px;
+  /* width: 1912px; */
   height: 2985px;
   background: #000c15;
 }
+
 /* style partie 1 */
-.partie1{
-  background-image:url(images/bg1.png);
+div.partie1{
+  background-image:url(bg1.png);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 1069px;
+  height: 850px;
 }
+.header{
+  border-bottom:1px solid #f3e2ba ;
+  height: 75px;
+}
+.titleatlantist{
+  height: 170px;
+}
+h1 span{
+  color: #f3e2ba;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 70px;
+  margin-top:50px;
+}
+h4 span{
+  color: #f3e2ba;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top:17px;
+}
+.box{
+  margin-top: 15px;
+  display: flex;
+  height: 284px;
+  width: 453px;
+  background:black;
+  opacity: 0.5;
+}
+
+.BW{
+  border:1px solid #f3e2ba;
+}
+.achetermaintenent{
+  margin-top: 150px;
+}
+
 
 /* style partie 2 */
-
 .partie2{
 height: 592px;
-background:white;
+background-color: aqua;
 }
-
+.p2box{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background: #f3e2ba;
+}
 /* style partie 3 */
-
 .partie3{
  height: 832px;
  background: aqua;
