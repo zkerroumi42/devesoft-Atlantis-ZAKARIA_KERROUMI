@@ -33,7 +33,7 @@ nav .nav-item .nav-link{
     border-radius: 50%;
     padding: 8px;
 }
-.home h1,.home h2{
+h1,h2{
     color: var(--color-primaire);
     font-family: 'Archeologicaps';
     font-weight: 500;
@@ -109,3 +109,10 @@ footer{
     padding-top: 50px;
 }
 /***** End Footer *****/
+
+/***** Page Gallery Flexslider *****/
+.flexslider{
+    border: var(--bg-primaire);
+    background: var(--bg-primaire);
+}
+/***** End Page Gallery Flexslider *****/

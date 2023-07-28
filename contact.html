@@ -8,10 +8,8 @@
     <link rel="stylesheet" href="font/stylesheet.css">
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
-    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
 </head>
-<body> 
+<body class="contact"> 
         <!-- ========== Start header ========== -->
         <header>
             <nav class="navbar navbar-expand-sm navbar-dark bg-transparent">
@@ -69,7 +67,7 @@
         <!-- ========== End header ========== -->
         <!-- ========== Start Contact ========== -->
         <section class="contact">
-                <h2 class="text-center">Contactez-nous</h2>
+                <h2 class="text-center my-5">Contactez-nous</h2>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -80,9 +78,39 @@
                             <p>EMAIL : aufderhar_oleta@gmail.com</p>
                         </div>
                         <div class="col-md-6">
-                            <form action="">
-                                NOM PRENOM TEL SUJET MESSAGE ENVOYER
-
+                            <form action="" method="post">
+                                <div class="row g-4">
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                          <input type="text" name="nom" id="nom" class="form-control p-3" placeholder="NOM">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                          <input type="text" name="prenom" id="prenom" class="form-control p-3" placeholder="prenom">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                          <input type="text" name="tel" id="tel" class="form-control p-3" placeholder="tel">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                          <input type="text" name="sujet" id="sujet" class="form-control p-3" placeholder="sujet">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                          <textarea class="form-control p-3" name="message" id="message" cols="30" rows="10">message</textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="mb-3">
+                                            <button class="btn p-3 w-100 btn-warning">Envoyer</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -136,7 +164,7 @@
                             <div class="col-md-6">
                                 <form action="">
                                     <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="" aria-label="Button" aria-describedby="">
+                                        <input type="text" class="form-control p-3" placeholder="" aria-label="Button" aria-describedby="">
                                         <button class="btn btn-outline-secondary" type="button" id="">
                                             <i class="fas fa-arrow-right"></i>
                                         </button>
