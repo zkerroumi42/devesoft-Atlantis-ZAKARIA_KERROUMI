@@ -100,6 +100,14 @@ footer{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+.footer-link h3{
+    color: var(--color-primaire);
+    font-size: 24px;
+    font-family: 'Charlemagne Std';
+    font-weight: bold;
+    font-style: normal;
+}
 .footer-newsletter{
     background-color: #172128;
     padding-top: 16px;
@@ -116,3 +124,9 @@ footer{
     background: var(--bg-primaire);
 }
 /***** End Page Gallery Flexslider *****/
+
+@media (max-width: 600px){
+    .home h1{
+        font-size: 40px;
+    }
+}
